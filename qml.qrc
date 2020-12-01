@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>icons/play_arrow-24px.svg</file>
+        <file>icons/settings_backup_restore-24px.svg</file>
+        <file>icons/stop-24px.svg</file>
+        <file>icons/clear-24px.svg</file>
+    </qresource>
+</RCC>
