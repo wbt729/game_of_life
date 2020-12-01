@@ -117,6 +117,8 @@ void TableModel::update()
             cells[row][column].alive = cells[row][column].future;
         }
     }
+    //emit data changed signal for entire table, since individual update signals
+    //will cause a lot of overhead leading to bad UI performance.
     emit dataChanged(this->index(0, 0), this->index(rowCount() - 1, columnCount() - 1));
 }
 
